@@ -1,4 +1,4 @@
-import NormalA from 'components/A';
+import NormalA from '../../components/A';
 
 const IssueLink = NormalA.extend`
   height: 100%;
