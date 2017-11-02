@@ -249,6 +249,9 @@
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.2.14",
+    "@storybook/addon-links": "^3.2.14",
+    "@storybook/react": "^3.2.14",
     "add-asset-html-webpack-plugin": "2.0.1",
     "babel-cli": "6.24.1",
     "babel-core": "6.24.1",
@@ -267,7 +270,7 @@
     "babel-preset-stage-0": "6.24.1",
     "circular-dependency-plugin": "3.0.0",
     "coveralls": "2.13.1",
-    "css-loader": "0.28.4",
+    "css-loader": "^0.28.4",
     "enzyme": "2.8.2",
     "eslint": "3.19.0",
     "eslint-config-airbnb": "15.0.1",
@@ -300,9 +303,6 @@
     "url-loader": "0.5.8",
     "webpack": "3.5.5",
     "webpack-dev-middleware": "1.11.0",
-    "webpack-hot-middleware": "2.18.0",
-    "@storybook/react": "^3.2.14",
-    "@storybook/addon-actions": "^3.2.14",
-    "@storybook/addon-links": "^3.2.14"
+    "webpack-hot-middleware": "2.18.0"
   }
 }

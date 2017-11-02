@@ -4,7 +4,11 @@
 
 import styled from 'styled-components';
 
-const A = styled.a`
+import patternLibrary from '../../../libs/external-pattern-library.css';
+
+const A = styled.a.attrs({
+  className: 'pl-link'
+})`
   color: #41addd;
 
   &:hover {
