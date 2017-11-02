@@ -44,7 +44,9 @@
     "test:watch": "cross-env NODE_ENV=test jest --watchAll",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "lint-staged": {
     "*.js": "lint:eslint"
@@ -298,6 +300,9 @@
     "url-loader": "0.5.8",
     "webpack": "3.5.5",
     "webpack-dev-middleware": "1.11.0",
-    "webpack-hot-middleware": "2.18.0"
+    "webpack-hot-middleware": "2.18.0",
+    "@storybook/react": "^3.2.14",
+    "@storybook/addon-actions": "^3.2.14",
+    "@storybook/addon-links": "^3.2.14"
   }
 }
