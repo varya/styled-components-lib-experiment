@@ -1,9 +1,19 @@
 import React from 'react';
 
-function H3(props) {
+import injectSheet from 'react-jss';
+
+const styles = {
+  h3: {
+    color: 'pink'
+  }
+};
+
+const H3 = ({classes, children}) => {
   return (
-    <h3 {...props} />
+    <h3 className={classes.h3}>
+      {children}
+    </h3>
   );
 }
 
-export default H3;
+export default injectSheet(styles)(H3);
